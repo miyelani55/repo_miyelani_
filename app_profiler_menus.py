@@ -38,9 +38,9 @@ if menu == "Researcher Profile":
     st.sidebar.header("Profile Options")
 
     # Collect basic information
-    name = "Dr. Jane Doe"
-    field = "Astrophysics"
-    institution = "University of Science"
+    name = "Miyelani Teddy Mashele"
+    field = "Computer Science"
+    institution = "University of Limpopo"
 
     # Display basic profile information
     st.write(f"**Name:** {name}")
@@ -131,5 +131,6 @@ elif menu == "STEM Data Explorer":
 elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
-    email = "jane.doe@example.com"
+    email = "teddymatimu@gmail.com"
+
     st.write(f"You can reach me at {email}.")
