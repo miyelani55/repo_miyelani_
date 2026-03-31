@@ -9,7 +9,7 @@ st.set_page_config(page_title="Profile and STEM Data Explorer", layout="wide")
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio(
     "Go to:",
-    ["Profile", "Publications", "STEM Data Explorer", "Contact"],
+    ["Profile", "Publications", "Vlog", "STEM Data Explorer", "Contact"],
 )
 
 # Dummy STEM data
